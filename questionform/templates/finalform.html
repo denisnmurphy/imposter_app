@@ -1,0 +1,31 @@
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Imposter Syndrome App</title>
+<meta name="description" content="The HTML5 Herald">
+<meta name="author" content="SitePoint">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+</head>
+
+<body style="padding: 20px">
+
+  <h1>Q3. What emotional growth or skills development can bridge the gap between where you are now and where you want to be?</h1>
+
+{% crispy form form.helper %}
+
+
+<!---  <h3> Q1: Who do you think you are pretending to be?</h3>
+  <form method="post">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <button type="submit">Submit</button>
+  </form> --->
+
+</body>
+</html>

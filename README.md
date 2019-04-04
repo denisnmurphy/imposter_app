@@ -1,7 +1,7 @@
 # Imposter Syndrome App
 
 ## Authors
-Denis Murphy
+Denis Murphy </br>
 Gazifah
 
 ## Purpose of Application

@@ -1,0 +1,15 @@
+{% extends 'questionform/base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+  <h1>Q1. Who are you right now?</h1>
+
+{% crispy form form.helper %}
+
+
+  <form method="get" action="/questiontwo">
+    <button type="submit">Next</button>
+</form>
+
+{% endblock %}

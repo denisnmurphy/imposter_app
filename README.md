@@ -46,3 +46,17 @@ python manage.py runserver
 python manage.py createsuperuser
 
 ```
+
+### Project Branches
+
+There are 2 branches on this project.
+
+Master
+Step_1_3_basic_forms
+
+To check out a branch
+
+```
+git checkout -b <branch name>
+
+```

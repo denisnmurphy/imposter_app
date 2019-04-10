@@ -12,7 +12,7 @@ def question_one_detail(request):
 
 
     form = QuestionOneForm()
-    return render(request, 'form.html', {'form': form})
+    return render(request, 'questionform/form.html', {'form': form})
 
 
 def question_two_detail(request):
@@ -24,7 +24,7 @@ def question_two_detail(request):
 
 
     form = QuestionTwoForm()
-    return render(request, 'secondform.html', {'form': form})
+    return render(request, 'questionform/secondform.html', {'form': form})
 
 def question_three_detail(request):
 
@@ -35,4 +35,4 @@ def question_three_detail(request):
 
 
     form = QuestionThreeForm()
-    return render(request, 'finalform.html', {'form': form})
+    return render(request, 'questionform/finalform.html', {'form': form})
